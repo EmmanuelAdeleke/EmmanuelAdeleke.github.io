@@ -1,0 +1,44 @@
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+    .title {
+        display: block;   
+    }
+    
+    header {
+        text-align: center;
+    }
+    /*
+    .form-group .col-sm-2 {
+        text-align: right;
+        padding-bottom: 5px;
+    }*/
+}
+
+@media (max-width: 768px) {
+    .title {
+        display: block;   
+    }
+    
+    .container {
+        margin: 6px;   
+    }
+    
+    header {
+        text-align: center;
+    }
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .title {
+        display: inline-block;
+    }
+    header {
+        text-align: left;   
+    }
+    .container {
+        width: 920px;   
+    }
+}
